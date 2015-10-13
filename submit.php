@@ -12,6 +12,7 @@
 $servername = "127.0.0.1:3306";
 $username = "root";
 $password = "";
+$dbName="cmpetest226";
 
 
 class Result
@@ -41,7 +42,7 @@ try {
     
     
     
-    $conn = new PDO("mysql:host=$servername;dbname=test", $username, "");
+    $conn = new PDO("mysql:host=$servername;dbname=$dbName", $username, "");
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     
     
