@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<form action="submit.php" method="post">
+    <fieldset>
+        <legend align="center">Alpha Squad - Assignment 4</legend>
+        LoginId : <input type="text" name="login"><br><br>
+    First name: <input type="text" name="fname"><br><br>
+    Last name: <input type="text" name="lname"><br><br>
+        Email: <input type="email" name="email"><br><br>
+        Password: <input type="password" name="pass"><br><br>
+    Security Question : <input type="text" name="security"><br><br>
+    Gender : Male<input type="radio" name = "radio1" value="male"> Female<input type="radio" name = "radio1" value="female"><br><br>
+     City: <input list="City" name="city"><br><br>
+     <datalist id="City" >
+            <option value="San Jose">
+            <option value="San Francisco">
+            <option value="Daly City">
+            <option value="San Ramon">
+            <option value="Palo Alto">
+     </datalist>
+    Items sold : <input type="number" name="itemsold"><br><br>
+    Items purchased : <input type="number" name="itempurchased"><br><br>
+    <input type="submit" value="Submit">
+    </fieldset>
+</form>
+</body>
+</html>
